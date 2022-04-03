@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GoTop /> should render 1`] = `
+.c0 {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  color: #0a1128;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 2px solid #0a1128;
+  box-shadow: 0 3px 6px rgba(0,0,0,.4);
+  z-index: 6;
+  opacity: .7;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<div>
+  <a
+    aria-label="Go to top"
+    class="c0"
+    href="#"
+    title="Go to top"
+  >
+    <svg
+      aria-hidden="true"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        fill="none"
+        height="24"
+        width="24"
+      />
+      <path
+        d="M12 20c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0 2c5.52 0 10-4.48 10-10S17.52 2 12 2 2 6.48 2 12s4.48 10 10 10zm-1-10v4h2v-4h3l-4-4-4 4h3z"
+      />
+    </svg>
+  </a>
+</div>
+`;

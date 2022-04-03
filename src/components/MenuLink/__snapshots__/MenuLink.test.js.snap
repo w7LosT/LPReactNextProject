@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuLink /> should match Snapshot 1`] = `
+.c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 2.5px;
+  background-color: #dc143c;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+
+.c0:hover::after {
+  width: 50%;
+}
+
+<a
+  class="c0"
+  href="https://www.google.com"
+  role="link"
+  target="_blank"
+>
+  MenuLink
+</a>
+`;

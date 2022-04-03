@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should not render links 1`] = `
+.c6 {
+  color: #0a1128;
+  font-size: 16px;
+  text-transform: uppercase;
+  min-width: 200px;
+}
+
+.c6 > a img {
+  margin: 0 auto;
+}
+
+.c4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.c2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 2px solid #cecece;
+  background-color: #fff;
+  z-index: 5;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.c2 .c3 {
+  min-width: 800px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 {
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: #0a1128;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+  pointer-events: all;
+}
+
+.c0 > svg {
+  width: 35px;
+  height: 35px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c7 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 > img {
+  max-height: 3rem;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .c2 .c3 {
+    min-width: 100%;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open/Close Menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open Menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="https://www.google.com"
+          >
+            <img
+              alt="Logo"
+              src="https://raw.githubusercontent.com/luizomf/strapi_landing_pages/master/public/DADOS/landing-page-2.svg"
+            />
+          </a>
+        </h1>
+        <nav
+          aria-label="Main Menu"
+          class="c8"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Menu /> should render Logo and NavLinks 1`] = `
+.c6 {
+  color: #0a1128;
+  font-size: 16px;
+  text-transform: uppercase;
+  min-width: 200px;
+}
+
+.c6 > a img {
+  margin: 0 auto;
+}
+
+.c4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.c2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 2px solid #cecece;
+  background-color: #fff;
+  z-index: 5;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.c2 .c3 {
+  min-width: 800px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 {
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: #0a1128;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+  pointer-events: all;
+}
+
+.c0 > svg {
+  width: 35px;
+  height: 35px;
+}
+
+.c9 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  color: #0a1128;
+  position: relative;
+}
+
+.c9::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 2.5px;
+  background-color: #dc143c;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+
+.c9:hover::after {
+  width: 50%;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c7 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 > img {
+  max-height: 3rem;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .c2 .c3 {
+    min-width: 100%;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open/Close Menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open Menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="https://www.google.com"
+          >
+            <img
+              alt="Logo"
+              src="https://raw.githubusercontent.com/luizomf/strapi_landing_pages/master/public/DADOS/landing-page-2.svg"
+            />
+          </a>
+        </h1>
+        <nav
+          aria-label="Main Menu"
+          class="c8"
+        >
+          <a
+            class="c9"
+            href="#target1"
+            role="link"
+            target="_self"
+          >
+            Link 1
+          </a>
+          <a
+            class="c9"
+            href="#target2"
+            role="link"
+            target="_self"
+          >
+            Link 2
+          </a>
+          <a
+            class="c9"
+            href="#target3"
+            role="link"
+            target="_blank"
+          >
+            Link 3
+          </a>
+          <a
+            class="c9"
+            href="#target4"
+            role="link"
+            target="_self"
+          >
+            Link 4
+          </a>
+          <a
+            class="c9"
+            href="#target5"
+            role="link"
+            target="_self"
+          >
+            Link 5
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+`;
