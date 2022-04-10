@@ -27,6 +27,17 @@ export default function Index({ pageData = null }){
     );
 }
 
+export const getStaticPaths = async () => {
+    return {
+        paths: [
+            {
+                params: { slug: 'home' }
+            }
+        ], //URLs que serão renderizadas
+        fallback: false, //se deve renderizar ou não a página 404 caso não encontre a URL
+    };
+}
+
 export const getStaticProps = async () => {
     try{
         const data = await fetch('http://localhost:1337/api/pages/?populate=*');
