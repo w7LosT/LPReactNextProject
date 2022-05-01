@@ -4,6 +4,9 @@ import { Title as  HeadingContainer } from '../Heading/styles';
 export const Container = styled.div`
   ${({ theme }) => css`
     padding: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
   `}
 `;
 

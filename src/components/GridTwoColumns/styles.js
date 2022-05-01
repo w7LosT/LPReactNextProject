@@ -8,6 +8,8 @@ export const Container = styled.div`
     gap: ${theme.spacings.lg};
     align-items: center;
     padding: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
 
     ${Title}{
       margin-bottom: ${theme.spacings.lg};

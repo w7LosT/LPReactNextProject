@@ -1,7 +1,8 @@
-import Head from 'next/head';
+//import Head from 'next/head';
 import P from 'prop-types';
 import styled from "styled-components";
-import { mapData } from '../api/general/map-data';
+//import { mapData } from '../api/general/map-data';
+import { loadPages } from '../api/load-pages';
 import App from '../templates/App';
 import { PageNotFound } from '../templates/PageNotFound';
 import { Heading as HeadComponent } from '../components/Heading';
@@ -27,23 +28,13 @@ export default function Index({ pageData = null }){
     );
 }
 
-export const getStaticPaths = async () => {
-    return {
-        paths: [
-            {
-                params: { slug: 'home' }
-            }
-        ], //URLs que serão renderizadas
-        fallback: false, //se deve renderizar ou não a página 404 caso não encontre a URL
-    };
-}
-
 export const getStaticProps = async () => {
     try{
-        const data = await fetch('http://localhost:1337/api/pages/?populate=*');
-        const json = await data.json();
-        const processedData = [json.data[0].attributes];
-        const pageData = mapData(processedData);
+        // const data = await fetch('http://localhost:1337/api/pages/?populate=*');
+        // const json = await data.json();
+        // const processedData = [json.data[0].attributes];
+        // const pageData = mapData(processedData);
+        const pageData = await loadPages();
         return {
             props: {
                 pageData

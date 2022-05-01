@@ -6,8 +6,8 @@ import { mapData } from './general/map-data';
  */
 
 export const loadPages = async (slug = '') => {
-    const cleanSlug = slug ? `?slug=${slug.replace(/[^a-z0-9-_]/gi, '')}` : '';
-    const url = `http://localhost:1337/api/pages/${cleanSlug}&populate=*`;
+    const cleanSlug = slug ? `slug=${slug.replace(/[^a-z0-9-_]/gi, '')}&` : '';
+    const url = `http://localhost:1337/api/pages/?${cleanSlug}populate=*`;
     const data = await fetch(url);
     const json = await data.json();
     const processedData = [json.data[0].attributes];
